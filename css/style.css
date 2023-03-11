@@ -1,3 +1,20 @@
+html,
+body {
+  heighh: 100%;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  margin-top: 34px;
+  margin-bottom: 60px;
+}
 .main-page {
   background: linear-gradient(270.23deg, #a5deff 1.34%, #fcfefe 99.8%);
 }
@@ -12,4 +29,74 @@
   padding: 12px 24px;
   color: #ffffff;
   border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main-paage-description {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d1f;
+  margin-bottom: 60px;
+}
+.main-paage-tittle {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  color: #1b1d1f;
+  margin-bottom: 24px;
+}
+.main-paage-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d1f;
+  margin-bottom: 32px;
+}
+.gus-facts {
+  padding-top: 48px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.gus-facts-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1b1d1f;
+  width: 772px;
+  margin: auto;
+  margin-bottom: 24px;
+}
+.gus-facts-trezub {
+  margin-bottom: 24px;
+}
+.gus-fact {
+  width: 374px;
+}
+.gus-fact-title {
+  margin-top: 8px;
+  margin-button: 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1b1d1f;
+}
+.gus-fact-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1b1d1f;
+}
+.gus-facts-intersting {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: #1b1d1f;
+  margin: 0;
 }

@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="preload" href="./img/gus-anim.gif" as="image">
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -25,7 +25,7 @@
               своїми подвигами, бороню Батьківщину та підтримую позитивний дух
               народу. Слава Україні!
             </p>
-            <button class="main-page-button">Запустити гуся</button>
+            <button class="main-page-button" id="go-to-form-btn">Запустити гуся</button>
           </div>
         </div>
         <img src="./img/Gussvg.svg" alt="" />
@@ -68,5 +68,23 @@
         </div>
       </div>
     </section>
+    <section class="form-sections">
+<form action="#" class="form-container" id="form" data-netlify="try">
+  <img class="gus-facts-trezub" src="./img/trezub.svg" alt="" />
+  <h3 class="form-title">Поділися, будь ласка, поштою</h3>
+  <p class="form-text">та запиши гуся до бандерозагону</p>
+<div class="form-field">
+  <label class="form-name" for="user-name">Ім'я</label>
+  <input type="text" id="user-name" name="Ім'я" required>
+</div>
+<div class="form-field form-field-email">
+  <label class="form-name" for="user-email">Email</label>
+  <input type="email" id="user-email" name="Email" required>
+</div>
+
+<button class="form-button" id="launch-btn">Запустити гуся</button>
+</form>
+    </section>
+    <script src="./js/form.js"></script>
   </body>
 </html>
